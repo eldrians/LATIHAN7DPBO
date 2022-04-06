@@ -18,7 +18,7 @@ class Task extends DB{
 		$deadlinex = $_POST['tdeadline'];
 		// status belum bisa dibuat karena ga paham
 
-		$insert = "INSERT into tb_to_do (name_td, details_td, subject_td, priority_td, deadline_td, status_td) VALUES ('$namex', '$detailx', '$subjectx', '$priorityx', '$deadlinex', 'Belum)";
+		$insert = "INSERT into tb_to_do (name_td, details_td, subject_td, priority_td, deadline_td, status_td) VALUES ('$namex', '$detailx', '$subjectx', '$priorityx', '$deadlinex', 'Belum')";
 		return $this->execute($insert);
 	}
 
